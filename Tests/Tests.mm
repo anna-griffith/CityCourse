@@ -6,9 +6,9 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "BinomialModel.h"
-#import "OptionPricer.h"
-#import "BarrierOptionPricer.h"
+#import "../src/BinomialModel/BinomialModel.h"
+#import "../src/Options/OptionPricer.h"
+#import "../src/Options/BarrierOptionPricer.h"
 
 @interface Tests : XCTestCase
 
