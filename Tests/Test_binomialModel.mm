@@ -10,11 +10,11 @@
 #import "../src/Options/OptionPricer.h"
 #import "../src/Options/BarrierOptionPricer.h"
 
-@interface Tests : XCTestCase
+@interface BinomialModelTests : XCTestCase
 
 @end
 
-@implementation Tests
+@implementation BinomialModelTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3600922F2ACF10570011E4AD /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3600922E2ACF10570011E4AD /* Tests.mm */; };
+		3600922F2ACF10570011E4AD /* Test_binomialModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3600922E2ACF10570011E4AD /* Test_binomialModel.mm */; };
 		360092692AE444620011E4AD /* BinomialModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360092652AE443F00011E4AD /* BinomialModel.cpp */; };
 		3600926A2AE444640011E4AD /* BinomialModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360092652AE443F00011E4AD /* BinomialModel.cpp */; };
 		3600926D2AE444E30011E4AD /* BinomialModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360092652AE443F00011E4AD /* BinomialModel.cpp */; };
@@ -20,6 +20,12 @@
 		3652B2A62AE4498100C0AA29 /* OptionPricer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B29D2AE4498100C0AA29 /* OptionPricer.cpp */; };
 		3652B2A72AE4498100C0AA29 /* OptionPricer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B29D2AE4498100C0AA29 /* OptionPricer.cpp */; };
 		3652B2AB2AE449BC00C0AA29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B29E2AE4498100C0AA29 /* main.cpp */; };
+		3652B6462AE587CC00C0AA29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B6452AE587CC00C0AA29 /* main.cpp */; };
+		3652B64D2AE5881700C0AA29 /* MCBlackScholes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B64B2AE5881700C0AA29 /* MCBlackScholes.cpp */; };
+		3652B64E2AE5881700C0AA29 /* MCBlackScholes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B64B2AE5881700C0AA29 /* MCBlackScholes.cpp */; };
+		3652B6512AE59ABC00C0AA29 /* PathDependentOption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B64F2AE59ABC00C0AA29 /* PathDependentOption.cpp */; };
+		3652B6522AE59ABC00C0AA29 /* PathDependentOption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652B64F2AE59ABC00C0AA29 /* PathDependentOption.cpp */; };
+		3652B6542AE6878400C0AA29 /* Test_monteCarlo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3652B6532AE6878400C0AA29 /* Test_monteCarlo.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +64,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3652B6412AE587CC00C0AA29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3600922C2ACF10570011E4AD /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3600922E2ACF10570011E4AD /* Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Tests.mm; sourceTree = "<group>"; };
+		3600922E2ACF10570011E4AD /* Test_binomialModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Test_binomialModel.mm; sourceTree = "<group>"; };
 		360092402AD075D70011E4AD /* Options */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Options; sourceTree = BUILT_PRODUCTS_DIR; };
 		360092532AE4134F0011E4AD /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		360092552AE413BB0011E4AD /* pywrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pywrap.cpp; sourceTree = "<group>"; };
@@ -340,6 +355,13 @@
 		3652B63C2AE5804200C0AA29 /* .cmake-format.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".cmake-format.yaml"; sourceTree = "<group>"; };
 		3652B63D2AE5804200C0AA29 /* noxfile.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = noxfile.py; sourceTree = "<group>"; };
 		3652B63E2AE5804200C0AA29 /* SECURITY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SECURITY.md; sourceTree = "<group>"; };
+		3652B6432AE587CC00C0AA29 /* MonteCarlo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonteCarlo; sourceTree = BUILT_PRODUCTS_DIR; };
+		3652B6452AE587CC00C0AA29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3652B64B2AE5881700C0AA29 /* MCBlackScholes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MCBlackScholes.cpp; sourceTree = "<group>"; };
+		3652B64C2AE5881700C0AA29 /* MCBlackScholes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCBlackScholes.h; sourceTree = "<group>"; };
+		3652B64F2AE59ABC00C0AA29 /* PathDependentOption.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PathDependentOption.cpp; sourceTree = "<group>"; };
+		3652B6502AE59ABC00C0AA29 /* PathDependentOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathDependentOption.h; sourceTree = "<group>"; };
+		3652B6532AE6878400C0AA29 /* Test_monteCarlo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Test_monteCarlo.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,13 +386,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3652B6402AE587CC00C0AA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3600922D2ACF10570011E4AD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3600922E2ACF10570011E4AD /* Tests.mm */,
+				3600922E2ACF10570011E4AD /* Test_binomialModel.mm */,
+				3652B6532AE6878400C0AA29 /* Test_monteCarlo.mm */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -406,6 +436,7 @@
 				363FEFB12ACCAE0200735B20 /* BinomialModel */,
 				3600922C2ACF10570011E4AD /* Tests.xctest */,
 				360092402AD075D70011E4AD /* Options */,
+				3652B6432AE587CC00C0AA29 /* MonteCarlo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -435,6 +466,7 @@
 		3652B2AC2AE57EA800C0AA29 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				3652B6442AE587CC00C0AA29 /* MonteCarlo */,
 				360092632AE443F00011E4AD /* BinomialModel */,
 				3652B2972AE4498100C0AA29 /* Options */,
 			);
@@ -940,6 +972,18 @@
 			path = matchers;
 			sourceTree = "<group>";
 		};
+		3652B6442AE587CC00C0AA29 /* MonteCarlo */ = {
+			isa = PBXGroup;
+			children = (
+				3652B6452AE587CC00C0AA29 /* main.cpp */,
+				3652B64B2AE5881700C0AA29 /* MCBlackScholes.cpp */,
+				3652B64C2AE5881700C0AA29 /* MCBlackScholes.h */,
+				3652B64F2AE59ABC00C0AA29 /* PathDependentOption.cpp */,
+				3652B6502AE59ABC00C0AA29 /* PathDependentOption.h */,
+			);
+			path = MonteCarlo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -996,6 +1040,23 @@
 			productReference = 363FEFB12ACCAE0200735B20 /* BinomialModel */;
 			productType = "com.apple.product-type.tool";
 		};
+		3652B6422AE587CC00C0AA29 /* MonteCarlo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3652B6492AE587CC00C0AA29 /* Build configuration list for PBXNativeTarget "MonteCarlo" */;
+			buildPhases = (
+				3652B63F2AE587CC00C0AA29 /* Sources */,
+				3652B6402AE587CC00C0AA29 /* Frameworks */,
+				3652B6412AE587CC00C0AA29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonteCarlo;
+			productName = MonteCarlo;
+			productReference = 3652B6432AE587CC00C0AA29 /* MonteCarlo */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1012,6 +1073,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					363FEFB02ACCAE0200735B20 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3652B6422AE587CC00C0AA29 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -1032,6 +1096,7 @@
 				363FEFB02ACCAE0200735B20 /* BinomialModel */,
 				3600922B2ACF10570011E4AD /* Tests */,
 				3600923F2AD075D70011E4AD /* Options */,
+				3652B6422AE587CC00C0AA29 /* MonteCarlo */,
 			);
 		};
 /* End PBXProject section */
@@ -1052,9 +1117,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3652B2A32AE4498100C0AA29 /* BarrierOptionPricer.cpp in Sources */,
+				3652B6542AE6878400C0AA29 /* Test_monteCarlo.mm in Sources */,
 				360092692AE444620011E4AD /* BinomialModel.cpp in Sources */,
-				3600922F2ACF10570011E4AD /* Tests.mm in Sources */,
+				3600922F2ACF10570011E4AD /* Test_binomialModel.mm in Sources */,
+				3652B64D2AE5881700C0AA29 /* MCBlackScholes.cpp in Sources */,
 				3652B2A62AE4498100C0AA29 /* OptionPricer.cpp in Sources */,
+				3652B6512AE59ABC00C0AA29 /* PathDependentOption.cpp in Sources */,
 				3652B2A02AE4498100C0AA29 /* OptionPricerBase.cpp in Sources */,
 				3652B2922AE447C700C0AA29 /* main.cpp in Sources */,
 			);
@@ -1078,6 +1146,16 @@
 			files = (
 				3652B2902AE4475100C0AA29 /* main.cpp in Sources */,
 				3600926A2AE444640011E4AD /* BinomialModel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3652B63F2AE587CC00C0AA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3652B6522AE59ABC00C0AA29 /* PathDependentOption.cpp in Sources */,
+				3652B6462AE587CC00C0AA29 /* main.cpp in Sources */,
+				3652B64E2AE5881700C0AA29 /* MCBlackScholes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1288,6 +1366,22 @@
 			};
 			name = Release;
 		};
+		3652B6472AE587CC00C0AA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3652B6482AE587CC00C0AA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1323,6 +1417,15 @@
 			buildConfigurations = (
 				363FEFB92ACCAE0200735B20 /* Debug */,
 				363FEFBA2ACCAE0200735B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3652B6492AE587CC00C0AA29 /* Build configuration list for PBXNativeTarget "MonteCarlo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3652B6472AE587CC00C0AA29 /* Debug */,
+				3652B6482AE587CC00C0AA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
