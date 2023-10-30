@@ -1,4 +1,4 @@
-# Install script for directory: /Users/annagriffith/documents/CityCourse/BinomialTree/pybind11
+# Install script for directory: /Users/annagriffith/documents/CityCourse/CityCourse/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

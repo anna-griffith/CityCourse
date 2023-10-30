@@ -8,7 +8,7 @@
 #ifndef OptionPricerBase_h
 #define OptionPricerBase_h
 
-#include "BinomialModel.h"
+#include "../BinomialModel/BinomialModel.h"
 
 class OptionPricer{
     protected:

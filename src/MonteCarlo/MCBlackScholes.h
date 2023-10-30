@@ -26,7 +26,8 @@ class MCBlackScholes
                        double sigma,
                        double r);
         void generateSamplePath(double T, int m, SamplePath& S);
-        double get_r(){return m_r;};
+        const double& get_r(){return m_r;};
+        const double& get_S0(){return m_S0;};
 };
 
 #endif /* MCBlackScholes_h */
